@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/q1"
+    android:background="#C601B16A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="The Electromagnetic Induction was dicovered by?"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:textColor="#E1000000"
+        android:textStyle="bold"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/group1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp">
+        <RadioButton
+            android:id="@+id/option1Of1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nikola Tesla"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option2Of1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="George Ohm"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option3Of1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thomas Edison"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option4Of1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Michael Faraday"
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+</RelativeLayout>

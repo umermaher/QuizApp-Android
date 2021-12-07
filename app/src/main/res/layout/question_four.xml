@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C1018786">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:textColor="#E1000000"
+        android:textStyle="bold"
+        android:text="Elevation of Mount Everest is?"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/group4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp">
+        <RadioButton
+            android:id="@+id/option1Of4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8611 km"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option2Of4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8125 km"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option3Of4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6190 km"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8848 km"
+            android:id="@+id/option4Of4"
+            android:textSize="20dp"/>
+    </RadioGroup>
+</RelativeLayout>

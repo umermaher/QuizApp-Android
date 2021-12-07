@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80910938">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:textSize="25dp"
+        android:textColor="#E1000000"
+        android:textStyle="bold"
+        android:text="Current CEO of Tesla is?"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:id="@+id/group5"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Elon Musk"
+            android:id="@+id/option1Of5"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option2Of5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jeff Bezoz"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option3Of5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jack Ma"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option4Of5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sundar Pichai"
+            android:textSize="20dp"/>
+    </RadioGroup>
+</RelativeLayout>

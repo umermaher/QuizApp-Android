@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/q2"
+    android:background="#BE019CB1">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        android:textSize="26dp"
+        android:textColor="#E1000000"
+        android:textStyle="bold"
+        android:text="The brain of any computer is?"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="230dp"
+        android:id="@+id/group2"
+        android:layout_marginLeft="30dp">
+        <RadioButton
+            android:id="@+id/option1Of2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Memory"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option2Of2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CPU"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option3Of2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motherboard"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option4Of2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Control unit"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/option5Of2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAM"
+            android:textSize="20dp"/>
+
+    </RadioGroup>
+
+</RelativeLayout>
